@@ -1,13 +1,11 @@
 import React, {useState} from 'react';
 import './LoginForm.css';
+import {isValidUsername,isValidPassword} from '../../utils/utils';
 
 function LoginForm({login}) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-
-  const isValidUsername = (username) => /^(?=.*[a-zA-Z])(?=.*\d).{8,}$/.test(username);
-  const isValidPassword = (password) => /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/.test(password);
 
   const handleSubmit = (e) => {
     e.preventDefault();
