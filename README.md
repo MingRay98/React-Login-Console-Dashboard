@@ -4,7 +4,7 @@ This is a homework for resume.
 
 ### Demo 
 
-link: https://mingray98.github.io/React-Login-Console-Dashboard
+link: https://mingray98.github.io/React-Login-Console-Dashboard/
 
 ### How to download and practice:
 
