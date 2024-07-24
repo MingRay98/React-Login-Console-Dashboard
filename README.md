@@ -15,6 +15,7 @@ link: <https://mingray98.github.io/React-Login-Console-Dashboard/>
    - Redux for state management
    - Next.js for server-side rendering and routing
    - TypeScript for improved type safety
+   - Styled-Component or Emotion inline packages or SCSS for styles
 
 ### How to download and practice
 
