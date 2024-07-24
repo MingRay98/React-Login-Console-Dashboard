@@ -11,6 +11,9 @@ const Home = (props) => {
   const [contentInfo, setContentInfo] = useState({});
 
   const onSelectFunction = (e) => {
+    if (!isAuthenticated) {
+      return alert('請先登入');
+    }
     const value = e.target.value;
     if (value === 'version') {
       setContentInfo({
@@ -21,7 +24,7 @@ const Home = (props) => {
       const userInfo = getUserInfo('userName');
       setContentInfo({
         title: '登入資訊',
-        content: `使用者名稱: ${userInfo.userName}, 密碼: ${userInfo.password}`,
+        content: `使用者名稱: ${userInfo.userName}\n 密碼: ${userInfo.password}`,
       });
     }
   }

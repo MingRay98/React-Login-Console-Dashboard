@@ -43,6 +43,7 @@
   background-color: #f0f0f0;
   padding: 15px;
   border-radius: 5px;
+  white-space: pre-wrap;
 }
 
 @media (max-width: 768px) {

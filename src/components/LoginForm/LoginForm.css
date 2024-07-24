@@ -51,6 +51,13 @@
   background-color: #555;
 }
 
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: -1px;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
   .login-form {
     width: 90%;
