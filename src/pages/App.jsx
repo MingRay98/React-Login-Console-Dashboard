@@ -1,5 +1,5 @@
-import Left from './Left'
-import Right from './Right';
+import Left from '../components/SideBar/SideBar'
+import Right from './HomePage/HomePage';
 import './App.css';
 
 function App() {
