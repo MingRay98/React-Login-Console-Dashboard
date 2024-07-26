@@ -30,7 +30,7 @@ const Home = (props) => {
   }
 
   return (
-    <div>
+    <div className='home-container'>
       <CompnayInfo isAuthenticated={isAuthenticated} />
       {isAuthenticated ?
         <div>

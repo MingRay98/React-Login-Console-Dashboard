@@ -2,6 +2,26 @@
 
 This is a homework for interview about the login system.
 
+### User Login Requirements
+
+#### Username
+
+- Must include at least one letter.
+- Must contain numbers.
+- Must be at least 8 characters.
+
+#### Password
+
+- Must include both uppercase and lowercase letters.
+- Must contain at least one special symbol.
+- Must include numbers.
+- Must be at least 8 characters.
+
+#### Example
+
+**name:** *user1234*
+**password:** *passwordGood@1234*
+
 ### Demo
 
 link: <https://mingray98.github.io/React-Login-Console-Dashboard/>
