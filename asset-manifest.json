@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/React-Login-Console-Dashboard/static/css/main.6e4f373c.css",
-    "main.js": "/React-Login-Console-Dashboard/static/js/main.bdd0474a.js",
+    "main.css": "/React-Login-Console-Dashboard/static/css/main.446ba6a7.css",
+    "main.js": "/React-Login-Console-Dashboard/static/js/main.b58d7f91.js",
     "static/js/453.9a0edc82.chunk.js": "/React-Login-Console-Dashboard/static/js/453.9a0edc82.chunk.js",
-    "static/media/icon.png": "/React-Login-Console-Dashboard/static/media/icon.3083dc1038ed767965ed.png",
     "index.html": "/React-Login-Console-Dashboard/index.html",
-    "main.6e4f373c.css.map": "/React-Login-Console-Dashboard/static/css/main.6e4f373c.css.map",
-    "main.bdd0474a.js.map": "/React-Login-Console-Dashboard/static/js/main.bdd0474a.js.map",
+    "main.446ba6a7.css.map": "/React-Login-Console-Dashboard/static/css/main.446ba6a7.css.map",
+    "main.b58d7f91.js.map": "/React-Login-Console-Dashboard/static/js/main.b58d7f91.js.map",
     "453.9a0edc82.chunk.js.map": "/React-Login-Console-Dashboard/static/js/453.9a0edc82.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e4f373c.css",
-    "static/js/main.bdd0474a.js"
+    "static/css/main.446ba6a7.css",
+    "static/js/main.b58d7f91.js"
   ]
 }
