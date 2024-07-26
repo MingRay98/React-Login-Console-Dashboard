@@ -19,6 +19,7 @@
   align-items: center;
   padding: 20px;
   transition: width 0.1s ease;
+  height: 100vh;
 }
 
 .close {
