@@ -22,7 +22,7 @@ function CompanyInfo({isAuthenticated}) {
   return (
     <div className="company-info">
       <h1>公司名稱-登入系統</h1>
-      <img className="icon" src={require('../../assets/images/icon.png')} alt="公司標誌" />
+      {/* <img className="icon" src={require('../../assets/images/icon.png')} alt="公司標誌" /> */}
       <p>這是一個描述公司簡介的段落。</p>
       {isAuthenticated && <p>{greeting}!</p>}
     </div>
