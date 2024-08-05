@@ -2,6 +2,18 @@
 
 This is a homework for interview about the login system.
 
+### Demo
+
+link: <https://mingray98.github.io/React-Login-Console-Dashboard/>
+
+### How to download and practice
+
+1. Download npm.
+2. Write a command  ```cd file path```
+3. And ```npm install``` or ```yarn```
+4. Open this project in your IDE or other editor.
+5. Run ```npm run start```
+
 ### User Login Requirements
 
 #### Username
@@ -22,13 +34,9 @@ This is a homework for interview about the login system.
 **name:** *user1234*
 **password:** *passwordGood@1234*
 
-### Demo
-
-link: <https://mingray98.github.io/React-Login-Console-Dashboard/>
-
 ### Future Improvements
 
-1. Implement a router for better navigation.
+1. Implement a router for better navigation. (ongoing)
 2. Create login and additional pages to enable full sidebar functionality (now only logout works).
 3. Integrate with Firebase for authentication and add user registration.
 4. Upgrade the project using modern technologies:
@@ -36,12 +44,3 @@ link: <https://mingray98.github.io/React-Login-Console-Dashboard/>
    - Next.js for server-side rendering and routing
    - TypeScript for improved type safety
    - Styled-Component or Emotion inline packages or SCSS for styles
-
-### How to download and practice
-
-1. Download npm.
-2. Use cmd to open the file directory.
-3. Write a command  ```cd file path```
-4. And ```npm install``` or ```yarn```
-5. Open this project in your IDE or other editor.
-6. Run ```npm start```
