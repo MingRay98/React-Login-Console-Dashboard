@@ -1,8 +1,10 @@
 import React from 'react';
 import Left from '../components/SideBar/SideBar'
-import Right from './HomePage/HomePage';
 import {useLoginContext} from '../hooks/ContextProvider';
 import './App.css';
+import HomePage from './HomePage/HomePage';
+import LoginPage from './LoginPage/LoginPage';
+import {Route, Routes, useNavigate} from 'react-router-dom';
 
 function App() {
 
@@ -13,11 +15,18 @@ function App() {
     isSidebarOpen
   } = useLoginContext();
 
+  const navigate = useNavigate();
+
   const handleNavigate = (destination) => {
     if (isAuthenticated && destination === 'logout') {
       logout();
     }
-    // can add more navigation for other pages
+    if (destination === 'login') {
+      navigate('/login');
+    }
+    if (destination === 'home') {
+      navigate('/');
+    }
   };
 
   return (
@@ -28,10 +37,11 @@ function App() {
         onNavigate={handleNavigate}
         isAuthenticated={isAuthenticated}
       />
-      <Right
-        isSidebarOpen={isSidebarOpen}
-        toggleSidebar={toggleSidebar}
-      />
+      <Routes>
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+      {!isSidebarOpen && <button className="float-menu-button" onClick={toggleSidebar}>☰</button>}
     </div>
   );
 }

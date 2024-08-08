@@ -35,11 +35,8 @@ const Home = (props) => {
       {isAuthenticated ?
         <div>
           <FunctionSelects onSelectFunction={onSelectFunction} contentInfo={contentInfo} />
-          <button className="logout-button" onClick={logout}>
-            登出
-          </button>
         </div> :
-        <LoginForm login={login} />
+        <div />
       }
     </div>
   );

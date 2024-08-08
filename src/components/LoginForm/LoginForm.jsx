@@ -1,11 +1,15 @@
 import React, {useState} from 'react';
 import './LoginForm.css';
 import {isValidUsername,isValidPassword} from '../../utils/utils';
+import {useLoginContext} from '../../hooks/ContextProvider';
+import { useNavigate } from 'react-router-dom';
 
-function LoginForm({login}) {
+function LoginForm(props) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const {login} = useLoginContext();
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -19,6 +23,7 @@ function LoginForm({login}) {
     }
 
     login(username, password);
+    navigate('/');
   };
 
   return (
