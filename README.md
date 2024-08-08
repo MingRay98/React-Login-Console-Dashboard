@@ -34,9 +34,14 @@ link: <https://mingray98.github.io/React-Login-Console-Dashboard/>
 **name:** *user1234*
 **password:** *passwordGood@1234*
 
+### Fix the issue by interviewer
+
+1. ~~Implement a router for login and home navigation. (done)~~
+2. ~~Remove the logic out in the home page. (done)~~
+
 ### Future Improvements
 
-1. Implement a router for better navigation. (ongoing)
+1. ~~Implement a router for better navigation. (done)~~
 2. Create login and additional pages to enable full sidebar functionality (now only logout works).
 3. Integrate with Firebase for authentication and add user registration.
 4. Upgrade the project using modern technologies:
